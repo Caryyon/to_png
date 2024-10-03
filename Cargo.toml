@@ -1,0 +1,10 @@
+[package]
+name = "to_png"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+actix-cors = "0.6"
+tokio = { version = "1", features = ["full"] }
+env_logger = "0.10"   # Add this for logging
